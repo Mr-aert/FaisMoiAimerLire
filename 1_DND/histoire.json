@@ -16,8 +16,8 @@
     "imageAlt": "Un jeune paladin devant un château",
     "text": "1_DND/Textes/1_Paladin.md",
     "choices": [
-      { "label": "Demander conseil au roi", "page": "2_Roi" },
-      { "label": "Chercher le magicien", "page": "3_Magicien" }
+      { "label": "Aller voir le roi", "page": "2_Roi" },
+      { "label": "Demander conseil au magicien", "page": "3_Magicien" }
     ]
   },
   "2_Roi": {

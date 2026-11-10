@@ -145,10 +145,6 @@ async function renderStoryPage(pageId) {
   image.src = page.image;
   image.alt = page.imageAlt;
 
-  const textHeading = document.createElement("h2");
-  textHeading.className = "story-heading";
-  textHeading.textContent = "L’histoire";
-
   const storyText = document.createElement("div");
   storyText.className = "story-text";
   storyText.setAttribute("aria-live", "polite");
@@ -156,7 +152,7 @@ async function renderStoryPage(pageId) {
   const content = document.createElement("section");
   content.className = "story-content";
   content.setAttribute("aria-label", "Suite de l’histoire");
-  content.append(textHeading, storyText);
+  content.append(storyText);
 
   const choices = document.createElement("nav");
   choices.className = "choice-list";
