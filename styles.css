@@ -60,12 +60,20 @@ a {
 }
 
 .page-card {
+  position: relative;
   overflow: hidden;
   padding: clamp(12px, 2.5vw, 24px);
-  border: 1px solid #e6d6b8;
-  border-radius: 18px;
-  background: var(--paper);
-  box-shadow: 0 14px 40px rgb(75 54 24 / 12%);
+  border: 7px double #80603b;
+  border-radius: 8px;
+  background:
+    radial-gradient(ellipse at 8% 12%, rgb(135 95 43 / 6%), transparent 26%),
+    radial-gradient(ellipse at 92% 88%, rgb(135 95 43 / 5%), transparent 30%),
+    repeating-linear-gradient(2deg, transparent 0 8px, rgb(104 75 39 / 2%) 9px, transparent 10px 17px),
+    linear-gradient(110deg, #fff8e6, #fffdf2 48%, #f8efda);
+  box-shadow:
+    inset 0 0 0 3px #d0b77e,
+    inset 0 0 22px rgb(92 61 29 / 8%),
+    0 10px 26px rgb(75 54 24 / 18%);
 }
 
 .page-title {
@@ -80,17 +88,18 @@ a {
   width: 100%;
   height: auto;
   max-height: 68vh;
-  border-radius: 10px;
+  border: 1px solid #8a6840;
+  border-radius: 3px;
   object-fit: contain;
   background: #eadfc9;
 }
 
 .story-text {
   min-height: 88px;
-  padding: 15px 17px;
-  border: 1px solid #e8dcc5;
-  border-radius: 10px;
-  background: #fffdf8;
+  padding: 15px 10px;
+  border-top: 1px solid rgb(111 78 39 / 28%);
+  border-bottom: 1px solid rgb(111 78 39 / 28%);
+  background: rgb(255 250 235 / 24%);
   font-size: clamp(1.05rem, 2.5vw, 1.2rem);
   line-height: 1.7;
   white-space: pre-wrap;

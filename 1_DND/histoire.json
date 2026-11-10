@@ -5,9 +5,7 @@
     "imageAlt": "Un sentier dans une forêt enchantée avec trois panneaux de direction",
     "text": "1_DND/Textes/0_Acceuil.md",
     "choices": [
-      { "label": "Suivre Orion, le paladin", "page": "1_Paladin" },
-      { "label": "Partir vers le château du roi", "page": "2_Roi" },
-      { "label": "Chercher le magicien", "page": "3_Magicien" }
+      { "label": "Suivre Orion, le paladin", "page": "1_Paladin" }
     ]
   },
   "1_Paladin": {
