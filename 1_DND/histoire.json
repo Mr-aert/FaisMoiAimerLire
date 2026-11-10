@@ -1,0 +1,43 @@
+{
+  "0_Acceuil": {
+    "title": "Paladin Orion et le cristal volé",
+    "image": "1_DND/Images/0_Acceuil.png",
+    "imageAlt": "Un sentier dans une forêt enchantée avec trois panneaux de direction",
+    "text": "1_DND/Textes/0_Acceuil.md",
+    "choices": [
+      { "label": "Suivre Orion, le paladin", "page": "1_Paladin" },
+      { "label": "Partir vers le château du roi", "page": "2_Roi" },
+      { "label": "Chercher le magicien", "page": "3_Magicien" }
+    ]
+  },
+  "1_Paladin": {
+    "title": "Orion, le paladin",
+    "image": "1_DND/Images/1_Paladin.png",
+    "imageAlt": "Un jeune paladin devant un château",
+    "text": "1_DND/Textes/1_Paladin.md",
+    "choices": [
+      { "label": "Demander conseil au roi", "page": "2_Roi" },
+      { "label": "Chercher le magicien", "page": "3_Magicien" }
+    ]
+  },
+  "2_Roi": {
+    "title": "Le roi",
+    "image": "1_DND/Images/2_Roi.png",
+    "imageAlt": "Le roi de l’histoire",
+    "text": "1_DND/Textes/2_Roi.md",
+    "choices": [
+      { "label": "Retrouver Orion", "page": "1_Paladin" },
+      { "label": "Consulter le magicien", "page": "3_Magicien" }
+    ]
+  },
+  "3_Magicien": {
+    "title": "Le magicien",
+    "image": "1_DND/Images/3_Magicien.png",
+    "imageAlt": "Le magicien de l’histoire",
+    "text": "1_DND/Textes/3_Magicien.md",
+    "choices": [
+      { "label": "Aider Orion", "page": "1_Paladin" },
+      { "label": "Retourner au château", "page": "2_Roi" }
+    ]
+  }
+}
